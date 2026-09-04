@@ -1,0 +1,124 @@
+.final-popup {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+}
+
+.final-popup__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 10, 24, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.final-popup__card {
+  position: relative;
+  width: min(320px, 86vw);
+  padding: 28px 24px 24px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #fff9f0 0%, #ffe8cc 100%);
+  border: 3px solid #fff;
+  box-shadow:
+    0 16px 48px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 140, 66, 0.25);
+  text-align: center;
+  animation: final-popup-in 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.final-popup__title {
+  font-family: system-ui, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #2a2038;
+  letter-spacing: 0.02em;
+}
+
+.final-popup__subtitle {
+  margin-top: 6px;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(42, 32, 56, 0.65);
+}
+
+.final-popup__stars {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 22px 0 24px;
+}
+
+.final-popup__star {
+  font-size: 44px;
+  line-height: 1;
+  color: #ffd54f;
+  text-shadow:
+    0 2px 0 #e6a800,
+    0 0 18px rgba(255, 213, 79, 0.55);
+  opacity: 0;
+  transform: scale(0.2) rotate(-20deg);
+  animation: star-pop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.final-popup__star--1 {
+  animation-delay: 0.15s;
+}
+
+.final-popup__star--2 {
+  animation-delay: 0.3s;
+}
+
+.final-popup__star--3 {
+  animation-delay: 0.45s;
+}
+
+.final-popup__cta {
+  width: 100%;
+  padding: 14px 20px;
+  font-family: system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(180deg, #44c767 0%, #2ea44f 100%);
+  border: 3px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(46, 164, 79, 0.45);
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  animation: cta-glow 1.6s ease-in-out infinite;
+}
+
+.final-popup__cta:active {
+  transform: scale(0.97);
+}
+
+@keyframes final-popup-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85) translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes star-pop {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes cta-glow {
+  0%,
+  100% {
+    box-shadow: 0 6px 20px rgba(46, 164, 79, 0.45);
+  }
+  50% {
+    box-shadow: 0 8px 28px rgba(46, 164, 79, 0.7);
+  }
+}

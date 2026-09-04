@@ -1,0 +1,67 @@
+.tutorial-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.tutorial-overlay__content {
+  position: absolute;
+  left: 55%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tutorial-overlay__hand {
+  font-size: 44px;
+  animation: swipe-hand-horizontal 1.4s ease-in-out infinite;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35));
+}
+
+.tutorial-overlay__swipe {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  border-radius: 2px;
+}
+
+.tutorial-overlay__swipe--horizontal {
+  animation: swipe-line-h 1.4s ease-in-out infinite;
+}
+
+.tutorial-overlay__text {
+  margin: 0;
+  padding: 8px 18px;
+  font-family: system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 999px;
+}
+
+@keyframes swipe-hand-horizontal {
+  0%,
+  100% {
+    transform: translateX(-40px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+}
+
+@keyframes swipe-line-h {
+  0%,
+  100% {
+    transform: scaleX(0.3);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}

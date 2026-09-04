@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "rows": 6,
+  "cols": 6,
+  "exit": { "row": 2, "side": "right" },
+  "cars": [
+    {
+      "id": "target",
+      "row": 2,
+      "col": 0,
+      "length": 2,
+      "orientation": "horizontal",
+      "isTarget": true,
+      "color": "red"
+    },
+    {
+      "id": "blocker",
+      "row": 1,
+      "col": 2,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "blue"
+    }
+  ],
+  "optimalMoves": 2,
+  "hintCarId": "blocker",
+  "hintOnStuck": "Сдвинь синюю машину вверх или вниз!"
+}

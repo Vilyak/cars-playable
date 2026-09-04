@@ -1,0 +1,44 @@
+{
+  "id": 2,
+  "rows": 6,
+  "cols": 6,
+  "exit": { "row": 2, "side": "right" },
+  "cars": [
+    {
+      "id": "target",
+      "row": 2,
+      "col": 0,
+      "length": 2,
+      "orientation": "horizontal",
+      "isTarget": true,
+      "color": "red"
+    },
+    {
+      "id": "v1",
+      "row": 1,
+      "col": 2,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "blue"
+    },
+    {
+      "id": "v2",
+      "row": 1,
+      "col": 4,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "green"
+    },
+    {
+      "id": "h1",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "orientation": "horizontal",
+      "color": "yellow"
+    }
+  ],
+  "optimalMoves": 3,
+  "hintCarId": "v1",
+  "hintOnStuck": "Сначала освободи полосу!"
+}

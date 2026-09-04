@@ -1,0 +1,33 @@
+.play-now {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  padding: 14px 48px;
+  font-family: system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(180deg, #ff8c42 0%, #e86a20 100%);
+  border: 3px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.5);
+  cursor: pointer;
+  animation: cta-pulse 1.5s ease-in-out infinite;
+  letter-spacing: 0.5px;
+}
+
+.play-now:active {
+  transform: translateX(-50%) scale(0.96);
+}
+
+@keyframes cta-pulse {
+  0%,
+  100% {
+    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.5);
+  }
+  50% {
+    box-shadow: 0 8px 28px rgba(255, 140, 66, 0.75);
+  }
+}

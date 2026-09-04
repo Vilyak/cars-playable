@@ -1,0 +1,68 @@
+{
+  "id": 3,
+  "rows": 6,
+  "cols": 6,
+  "exit": { "row": 2, "side": "right" },
+  "cars": [
+    {
+      "id": "target",
+      "row": 2,
+      "col": 0,
+      "length": 2,
+      "orientation": "horizontal",
+      "isTarget": true,
+      "color": "red"
+    },
+    {
+      "id": "a",
+      "row": 0,
+      "col": 2,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "blue"
+    },
+    {
+      "id": "b",
+      "row": 3,
+      "col": 2,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "green"
+    },
+    {
+      "id": "c",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "orientation": "horizontal",
+      "color": "yellow"
+    },
+    {
+      "id": "d",
+      "row": 4,
+      "col": 3,
+      "length": 2,
+      "orientation": "horizontal",
+      "color": "purple"
+    },
+    {
+      "id": "e",
+      "row": 1,
+      "col": 4,
+      "length": 2,
+      "orientation": "vertical",
+      "color": "orange"
+    },
+    {
+      "id": "f",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "orientation": "horizontal",
+      "color": "cyan"
+    }
+  ],
+  "optimalMoves": 6,
+  "hintCarId": "b",
+  "hintOnStuck": "Подумай над порядком ходов!"
+}
