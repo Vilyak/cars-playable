@@ -1,0 +1,231 @@
+{
+  "frames": {
+    "car_cyan_h3": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 222,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_purple_h3": {
+      "frame": {
+        "x": 228,
+        "y": 2,
+        "w": 222,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_purple_h2": {
+      "frame": {
+        "x": 454,
+        "y": 2,
+        "w": 146,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_red_h2": {
+      "frame": {
+        "x": 604,
+        "y": 2,
+        "w": 146,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_yellow_h2": {
+      "frame": {
+        "x": 754,
+        "y": 2,
+        "w": 146,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_blue_v2": {
+      "frame": {
+        "x": 904,
+        "y": 2,
+        "w": 70,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 146
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_green_v2": {
+      "frame": {
+        "x": 2,
+        "y": 76,
+        "w": 70,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 146
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "car_orange_v2": {
+      "frame": {
+        "x": 76,
+        "y": 76,
+        "w": 70,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 146
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "exit_arrow": {
+      "frame": {
+        "x": 150,
+        "y": 76,
+        "w": 52,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 48
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.9",
+    "image": "game.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 976,
+      "h": 224
+    },
+    "scale": 1
+  }
+}

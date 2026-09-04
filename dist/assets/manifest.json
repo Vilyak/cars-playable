@@ -1,0 +1,43 @@
+{
+  "bundles": [
+    {
+      "name": "demo",
+      "assets": [
+        {
+          "alias": "demo",
+          "src": "/assets/demo.json"
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "alias": "game",
+          "src": "/assets/game.json"
+        }
+      ]
+    },
+    {
+      "name": "game-static",
+      "assets": [
+        {
+          "alias": "game/bg",
+          "src": "/assets/game/bg.png"
+        },
+        {
+          "alias": "game/board",
+          "src": "/assets/game/board.png"
+        },
+        {
+          "alias": "game/board_frame",
+          "src": "/assets/game/board_frame.png"
+        },
+        {
+          "alias": "game/board_grid",
+          "src": "/assets/game/board_grid.png"
+        }
+      ]
+    }
+  ]
+}
